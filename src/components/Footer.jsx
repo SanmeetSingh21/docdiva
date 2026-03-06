@@ -7,7 +7,9 @@ export default function Footer() {
       <div className="container">
         <div className="footer-grid">
           <div className="footer-brand">
-            <div className="footer-logo">Doc Diva</div>
+            <div className="footer-logo">
+  <img src="/logo_white.png" alt="Doc Diva" style={{ height: "48px", objectFit: "contain" }} />
+</div>
             <p>Compassionate, evidence-based gynecological care for women at every stage of life.</p>
             <div className="social-links">
               <a href="#" aria-label="Instagram">
@@ -56,6 +58,7 @@ export default function Footer() {
         <div className="footer-bottom">
           <p>2026 © Doc Diva — Website Copyright by CodeFuel Consulting</p>
           <div className="footer-bottom-links">
+            <Link to="/">Home</Link>
             <Link to="/about">About Us</Link>
             <Link to="/contact">Contact Us</Link>
           </div>

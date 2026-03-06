@@ -57,10 +57,13 @@ export default function Navbar() {
       {/* Navbar */}
       <nav className={`navbar${scrolled ? " scrolled" : ""}`}>
         <div className="nav-inner container">
-          <Link to="/" className="nav-logo">Doc Diva</Link>
+          <Link to="/" className="nav-logo">
+  <img src="/logo.png" alt="Doc Diva" style={{ height: "48px", objectFit: "contain" }} />
+</Link>
 
           {/* Desktop links */}
           <div className="nav-links">
+            <Link to="/" className={location.pathname === "/" ? "active" : ""}>Home</Link>
             <Link to="/about" className={location.pathname === "/about" ? "active" : ""}>About</Link>
             <Link to="/contact" className={location.pathname === "/contact" ? "active" : ""}>Contact Us</Link>
             <Link to="/appointment" className="nav-cta">Ask Doc Diva</Link>
@@ -79,7 +82,7 @@ export default function Navbar() {
       <div className={`drawer-overlay${menuOpen ? " open" : ""}`} onClick={close} />
       <div className={`drawer${menuOpen ? " open" : ""}`}>
         <div className="drawer-header">
-          <span className="drawer-logo">Doc Diva</span>
+          <img src="/logo.png" alt="Doc Diva" style={{ height: "30px", objectFit: "contain" }} />
           <button className="drawer-close" onClick={close} aria-label="Close menu">
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
