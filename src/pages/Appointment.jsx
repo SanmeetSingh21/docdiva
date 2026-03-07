@@ -41,7 +41,7 @@ export default function Appointment() {
           <div className="appt-hero-inner">
             <div className="appt-hero-text">
               <span className="section-tag">Get in Touch</span>
-              <h1 className="section-title">Ask Doc Diva</h1>
+              <h1 className="section-title">Ask Dr. Divya</h1>
               <p className="section-subtitle">
                 Have a question? Want to book a consultation? Fill in the form and Dr. Divya's team will get back to you within 24 hours.
               </p>

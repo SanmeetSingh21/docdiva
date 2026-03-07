@@ -55,7 +55,7 @@ const FAQS = [
   },
   {
     q: "How is this different from my regular gynecologist?",
-    a: "We go deeper. Most clinic visits are 7-10 minutes. At Doc Diva, first consultations are never rushed. We take a full history, listen to everything, and build treatment around the root cause — not just the symptom."
+    a: "We go deeper. Most clinic visits are 7-10 minutes. At Clinic Divya, first consultations are never rushed. We take a full history, listen to everything, and build treatment around the root cause — not just the symptom."
   },
   {
     q: "Do you treat conditions other doctors have dismissed?",
@@ -110,7 +110,7 @@ export default function Home() {
               Dr. Divya Narang Wadhwan provides compassionate, evidence-based gynecological care for women at every stage of life. No judgment. No dismissals. Just the truth your Google search couldn't give you.
             </p>
             <div className="hero-actions">
-              <Link to="/appointment" className="btn-primary">Ask Doc Diva →</Link>
+              <Link to="/appointment" className="btn-primary">Ask Dr. Divya →</Link>
               <Link to="/about" className="btn-outline">Learn More</Link>
             </div>
             <div className="hero-stats">

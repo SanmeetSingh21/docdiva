@@ -66,7 +66,7 @@ export default function Navbar() {
             <Link to="/" className={location.pathname === "/" ? "active" : ""}>Home</Link>
             <Link to="/about" className={location.pathname === "/about" ? "active" : ""}>About</Link>
             <Link to="/contact" className={location.pathname === "/contact" ? "active" : ""}>Contact Us</Link>
-            <Link to="/appointment" className="nav-cta">Ask Doc Diva</Link>
+            <Link to="/appointment" className="nav-cta">Ask Dr. Divya</Link>
           </div>
 
           {/* Hamburger — mobile only */}
@@ -97,7 +97,7 @@ export default function Navbar() {
         </div>
 
         <div className="drawer-cta">
-          <Link to="/appointment" onClick={close}>Ask Doc Diva</Link>
+          <Link to="/appointment" onClick={close}>Ask Dr Divya</Link>
         </div>
 
         <div className="drawer-contact">

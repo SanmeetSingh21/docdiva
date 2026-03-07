@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="footer-grid">
           <div className="footer-brand">
             <div className="footer-logo">
-  <img src="/logo_white.png" alt="Doc Diva" style={{ height: "48px", objectFit: "contain" }} />
+  <img src="/logo_white.png" alt="Clinic Divya" style={{ height: "48px", objectFit: "contain" }} />
 </div>
             <p>Compassionate, evidence-based gynecological care for women at every stage of life.</p>
             <div className="social-links">
@@ -56,7 +56,7 @@ export default function Footer() {
         </div>
 
         <div className="footer-bottom">
-          <p>2026 © Doc Diva — Website Copyright by CodeFuel Consulting</p>
+          <p>2026 © Clinic Divya — Website Copyright by CodeFuel Consulting</p>
           <div className="footer-bottom-links">
             <Link to="/">Home</Link>
             <Link to="/about">About Us</Link>

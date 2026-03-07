@@ -12,7 +12,7 @@ export default function About() {
               <span className="section-tag">About Us</span>
               <h1 className="section-title">More Than a Gynecologist</h1>
               <p className="section-subtitle">
-                A translator between your body and the medical world. Dr. Divya Narang Wadhwan built Doc Diva on a simple belief: every woman deserves to be heard, believed, and treated with evidence — not assumptions.
+                A translator between your body and the medical world. Dr. Divya Narang Wadhwan built Clinic Divya on a simple belief: every woman deserves to be heard, believed, and treated with evidence — not assumptions.
               </p>
               <Link to="/appointment" className="btn-primary" style={{ marginTop: "32px" }}>Book a Consultation →</Link>
             </div>
@@ -33,11 +33,11 @@ export default function About() {
           <div className="story-inner">
             <div className="story-left">
               <span className="section-tag">Her Story</span>
-              <h2 className="section-title">Why Doc Diva Exists</h2>
+              <h2 className="section-title">Why Clinic Divya Exists</h2>
             </div>
             <div className="story-right">
-              <p>After more than a decade in clinical practice, Dr. Divya saw the same story repeated: women dismissed, conditions undertreated, and real concerns met with "it's probably stress." Doc Diva was built to change that.</p>
-              <p>The name itself is a statement. Women who know their bodies, ask the hard questions, and refuse to accept "just live with it" as an answer — they're the Doc Divas. This clinic is for them.</p>
+              <p>After more than a decade in clinical practice, Dr. Divya saw the same story repeated: women dismissed, conditions undertreated, and real concerns met with "it's probably stress." Clinic Divya was built to change that.</p>
+              <p>The name itself is a statement. Women who know their bodies, ask the hard questions, and refuse to accept "just live with it" as an answer — they're the Clinic Divya. This clinic is for them.</p>
               <p>From recurrent infections to complex hormonal conditions, the practice is built around time, attention, and evidence. Not the conveyor-belt model of healthcare that leaves patients more confused than when they walked in.</p>
             </div>
           </div>
@@ -88,13 +88,13 @@ export default function About() {
         <div className="container">
           <div className="section-header">
             <span className="section-tag">Our Values</span>
-            <h2 className="section-title">The Doc Diva Way</h2>
+            <h2 className="section-title">The Clinic Divya Way</h2>
             <p className="section-subtitle">Everything we do is shaped by three core beliefs about women's healthcare.</p>
           </div>
           <div className="values-grid">
             {[
               { num: "01", title: "You Know Your Body", desc: "You're not being dramatic. You're not exaggerating. When something feels wrong, it's worth investigating. We start with belief, not skepticism." },
-              { num: "02", title: "Evidence First, Always", desc: "Treatment decisions at Doc Diva are grounded in the latest research. We don't rely on what's 'always been done.' We do what actually works." },
+              { num: "02", title: "Evidence First, Always", desc: "Treatment decisions at Clinic Divya are grounded in the latest research. We don't rely on what's 'always been done.' We do what actually works." },
               { num: "03", title: "Dignity in Every Visit", desc: "Healthcare should never feel humiliating. No condescension. No rushing. No dismissals. Every appointment is a conversation between equals." },
             ].map((v, i) => (
               <div className="value-card" key={i}>

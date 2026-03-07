@@ -9,7 +9,7 @@ const FAQS = [
   },
   {
     q: "How is this different from my regular gynecologist?",
-    a: "We go deeper. Most clinic visits are 7-10 minutes. At Doc Diva, first consultations are never rushed. We take a full history, listen to everything, and build treatment around the root cause — not just the symptom."
+    a: "We go deeper. Most clinic visits are 7-10 minutes. At Clinic Divya, first consultations are never rushed. We take a full history, listen to everything, and build treatment around the root cause — not just the symptom."
   },
   {
     q: "Do you treat conditions other doctors have dismissed?",
