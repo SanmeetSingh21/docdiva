@@ -339,7 +339,7 @@ export default function Home() {
           <p>Book your consultation today — in-clinic or virtually. Your body deserves more than a Google search.</p>
           <div className="cta-actions">
             <Link to="/appointment" className="btn-primary">Book Appointment →</Link>
-            <a href="tel:9876511920" className="btn-outline" style={{ color: "var(--cream)", borderColor: "var(--cream)" }}>📞 Call Now</a>
+            <a href="tel:9625486033" className="btn-outline" style={{ color: "var(--cream)", borderColor: "var(--cream)" }}>📞 Call Now</a>
           </div>
         </div>
       </section> */}

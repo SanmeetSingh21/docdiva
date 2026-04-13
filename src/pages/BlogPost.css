@@ -1,0 +1,310 @@
+/* BlogPost.css — matches site's existing design language */
+
+.post-loading {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'DM Sans', sans-serif;
+  color: var(--text-muted);
+}
+
+.post-page { background: var(--section-bg); }
+
+/* ─── Top Bar ─── */
+.post-masthead-bar {
+  background: var(--dark);
+  padding: 10px 0;
+}
+
+.post-back {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(255 255 255 / 0.6);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.post-back:hover { color: #fff; }
+
+/* ─── Article Header ─── */
+.post-header {
+  background: var(--cream);
+  padding: 64px 0 0;
+}
+
+.post-header-inner {
+  max-width: 760px;
+  margin: 0 auto;
+  padding-bottom: 48px;
+}
+
+.post-header-meta {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.blog-category-pill {
+  background: var(--accent-light);
+  color: var(--accent);
+  padding: 6px 16px;
+  border-radius: 50px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.post-header-date {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.post-headline {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(28px, 4.5vw, 52px);
+  font-weight: 700;
+  line-height: 1.15;
+  color: var(--dark);
+  margin-bottom: 16px;
+  letter-spacing: -0.3px;
+}
+
+.post-desc {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 17px;
+  color: var(--text-muted);
+  line-height: 1.75;
+  margin-bottom: 0;
+  font-style: normal;
+}
+
+.post-byline-block {
+  font-style: normal;
+  min-height: 0;
+}
+
+.post-header-rule {
+  height: 1px;
+  background: var(--border);
+  margin-top: 48px;
+}
+
+/* ─── Cover Image ─── */
+.post-cover-wrap {
+  background: var(--section-bg);
+  padding: 40px 0;
+}
+
+.post-cover-figure { margin: 0; }
+
+.post-cover-img {
+  width: 100%;
+  max-height: 500px;
+  object-fit: cover;
+  border-radius: 20px;
+  display: block;
+  box-shadow: 0 4px 24px rgba(0 0 0 / 0.09);
+}
+
+/* ─── Content layout ─── */
+.post-content-layout {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+  gap: 52px;
+  padding-top: 52px;
+  padding-bottom: 80px;
+  align-items: start;
+}
+
+/* ─── Rich text ─── */
+.post-rich-text {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 17px;
+  line-height: 1.85;
+  color: var(--dark);
+}
+
+.post-rich-text h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: clamp(20px, 2.5vw, 30px);
+  font-weight: 600;
+  color: var(--dark);
+  margin: 48px 0 16px;
+}
+
+.post-rich-text p { margin-bottom: 24px; }
+
+.post-rich-text ul {
+  margin-bottom: 24px;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.post-rich-text li {
+  padding: 14px 18px;
+  background: var(--white);
+  border-radius: 12px;
+  border-left: 3px solid var(--accent);
+  font-size: 16px;
+  line-height: 1.7;
+  box-shadow: 0 1px 6px rgba(0 0 0 / 0.04);
+}
+
+.post-rich-text li::before { display: none; }
+.post-rich-text strong { color: var(--dark); font-weight: 600; }
+
+/* ─── Sidebar ─── */
+.post-sidebar {
+  position: sticky;
+  top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.sidebar-card {
+  background: var(--white);
+  border-radius: 20px;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  box-shadow: 0 2px 12px rgba(0 0 0 / 0.06);
+}
+
+.sidebar-card-label {
+  display: inline-block;
+  background: var(--accent-light);
+  color: var(--accent);
+  padding: 6px 16px;
+  border-radius: 50px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  align-self: flex-start;
+  margin-bottom: 4px;
+}
+
+.sidebar-card .byline-avatar,
+.sidebar-card .byline-avatar.lg {
+  width: 48px;
+  height: 48px;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.sidebar-author-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--dark);
+  margin: 0;
+}
+
+.sidebar-author-role {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.sidebar-email-link {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 13px;
+  color: var(--accent);
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.2s;
+}
+
+.sidebar-email-link:hover { opacity: 0.75; }
+
+/* CTA card */
+.cta-card {
+  background: var(--dark);
+}
+
+.cta-card .sidebar-card-label {
+  background: rgba(255 255 255 / 0.15);
+  color: rgba(255 255 255 / 0.85);
+}
+
+.cta-card p {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  color: rgba(255 255 255 / 0.65);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.sidebar-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--white);
+  color: var(--dark);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 12px 24px;
+  border-radius: 50px;
+  text-decoration: none;
+  align-self: flex-start;
+  transition: all 0.3s ease;
+  letter-spacing: 0.3px;
+}
+
+.sidebar-cta-btn:hover {
+  background: var(--accent);
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+/* ─── Footer ─── */
+.post-footer-rule {
+  background: var(--white);
+  border-top: 1px solid var(--border);
+  padding: 28px 0 44px;
+}
+
+.post-back-bottom {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.post-back-bottom:hover { color: var(--accent); }
+
+/* ─── Responsive ─── */
+@media (max-width: 900px) {
+  .post-content-layout { grid-template-columns: 1fr; gap: 36px; }
+  .post-sidebar { position: static; }
+}
+
+@media (max-width: 768px) {
+  .post-header { padding: 48px 0 0; }
+  .post-headline { font-size: clamp(26px, 7vw, 40px); }
+  .post-cover-img { border-radius: 16px; max-height: 240px; }
+  .post-rich-text { font-size: 16px; }
+}

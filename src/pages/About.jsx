@@ -75,7 +75,7 @@ export default function About() {
                 Dr. Divya trained at some of India's leading medical institutions and has spent her career at the intersection of evidence-based medicine and compassionate care. She speaks at conferences, contributes to research, and — most importantly — spends real time with every patient.
               </p>
               <div className="profile-contact">
-                <a href="tel:9876511920" className="btn-primary">📞 Call Dr. Divya</a>
+                <a href="tel:9625486033" className="btn-primary">📞 Call Dr. Divya</a>
                 <Link to="/appointment" className="btn-outline">Ask a Question</Link>
               </div>
             </div>
